@@ -7,7 +7,7 @@ html,body{
 	width:100%;
 	color:#000;
   background:#fff;
-	font:14px verdana, sans-serif;
+	font:14px arial, sans-serif;
 }
 header{
   position:fixed;
@@ -45,6 +45,7 @@ img{
 }
 article{
   padding:48px 2.5%;
+  text-align:center;
 }
 footer{
   position:fixed;
