@@ -7,18 +7,43 @@ html,body{
 	width:100%;
 	color:#000;
   background:#fff;
-	font:14px arial, sans-serif;
+	font:15px Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
-header{
+header.one{
   position:fixed;
   top:0;
   width:95%;
   height:48px;
   padding:0 2.5%;
+  background:#fff;
+  overflow:hidden;
+  z-index:99;
+}
+.logo{
+  display:inline-block;
+  height:24px;
+  width:74px;
+  margin:12px 0;
+  background-image:url(../images/logo.png);
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+header.two{
+  position:fixed;
+  top:48px;
+  width:95%;
+  height:30px;
+  padding:0 2.5%;
   color:#fff;
   background:#0078d7;
   overflow:hidden;
+  text-align:center;
   z-index:99;
+}
+a.two{
+  line-height:30px;
+  color:#fff;
+  font-weight:normal;
 }
 .header{
   line-height:48px;
@@ -33,7 +58,7 @@ p{
 }
 a{
 	color:#0078d7;
-  font-weight:bold;
+  font-weight:600;
 	text-decoration:none;
 }
 a:hover{
@@ -44,7 +69,7 @@ img{
   height: auto;
 }
 article{
-  padding:48px 2.5%;
+  padding:78px 2.5%;
   text-align:center;
 }
 footer{
