@@ -69,7 +69,9 @@ img{
   height: auto;
 }
 article{
-  padding:78px 2.5%;
+  max-width:720px;
+  margin:78px auto 48px auto;
+  padding:20px 10px;
   text-align:center;
 }
 footer{
