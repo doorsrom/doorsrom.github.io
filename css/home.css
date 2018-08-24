@@ -1,0 +1,77 @@
+#opening{
+  width:88%;
+  background-image:url(../images/logo.png);
+	background-repeat:no-repeat;
+	background-size:60%;
+  background-position: center; 
+  height:17vw;
+  margin:6%
+}
+#tiles{
+  position:sticky;
+  top:78px;
+}
+.tile{
+  display:inline-block;
+  color:#fff;
+  background:#0078d7;
+  box-shadow:10px 10px 5px rgba(0,0,0,0.5);
+  position:relative;
+  width:15%; 
+  margin:1.3%;
+	background-repeat:no-repeat;
+	background-size:50% 50%;
+  background-position: center; 
+}
+.tile:before{
+  content:"";
+  display:block;
+  padding-top:100%;
+}
+a.content{
+  position:absolute;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+}
+img.content{
+  position:absolute;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+}
+span.content{
+  display:none;
+}
+@media screen and (min-width:360px) {
+span.content{
+  display:inline;
+  position:absolute;
+  bottom:4%;
+  left:0;
+  right:0;
+  font-size:2vw;
+}
+}
+@media screen and (min-width:720px) {
+#opening{
+  height:150px;
+}
+span.content{
+  font-size:14px;
+}
+}
+.zap{
+  background-image:url(../images/zap.svg);
+}
+.gear{
+  background-image:url(../images/gear.svg);
+}
+.arrowscircle{
+  background-image:url(../images/arrowscircle.svg);
+}
+.playst{
+  background-image:url(../images/playst.svg);
+}

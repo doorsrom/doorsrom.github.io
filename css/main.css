@@ -64,6 +64,9 @@ a{
 a:hover{
 	text-decoration:underline;
 }
+a.hash{
+  text-decoration:none;
+}
 img{
   max-width: 100%;
   height: auto;
@@ -82,4 +85,20 @@ footer{
   padding:0 2.5%;
   background:#f2f2f2;
   z-index:99;
+}
+.left{
+  display:none;
+}
+.right{
+  display:none;
+}
+@media screen and (min-width:275px) {
+.left{
+  display:inline;
+  float:left;
+}
+.right{
+  display:inline;
+  float:right;
+}
 }
