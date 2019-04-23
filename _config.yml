@@ -1,21 +1,3 @@
-repository: doorsrom/doorsrom.github.io
-
-gems:
-  - jekyll-github-metadata
-  - jekyll-optional-front-matter
-  - jekyll-relative-links
-  - jekyll-titles-from-headings
-
-markdown: kramdown
-
-kramdown:
-  input: GFM
-  auto_ids: true
-  syntax_highlighter_opts:
-      disable : true
-
-languages: [ "en" ]
-
 defaults:
   - scope:
       path: ""
